@@ -1,8 +1,23 @@
 title: Brendafei.GitHub.com
 description: fish in the pool
 google_analytics: 
-show_downloads: true
-theme: jekyll-theme-cayman
+theme: plainwhite
+remote_theme: samarsault/plainwhite-jekyll
 
 gems:
   - jekyll-mentions
+
+plainwhite:
+  name: Brenda
+  tagline: fish in the pool
+  date_format: "%b %-d, %Y"
+  portfolio_image: "assets/starstar.jpeg"
+  dark_mode: true
+  search: true
+#  navigation:
+#    - title: Blogs
+#      url: "/index"
+#    - title: Hello1
+#      url: "/hello1"
+  social_links:
+    github: brendafei

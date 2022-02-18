@@ -1,8 +1,8 @@
 title: Brendafei.GitHub.com
 description: fish in the pool
 google_analytics: 
-theme: plainwhite
 remote_theme: samarsault/plainwhite-jekyll
+#theme: plainwhite
 
 gems:
   - jekyll-mentions

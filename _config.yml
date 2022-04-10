@@ -1,13 +1,15 @@
-title: Brendafei.GitHub.com
-description:
+title: BrendaFei
+description: lalala
 google_analytics:
 show_excerpts: true
 #excerpt_separator: <!--more-->
-remote_theme: samarsault/plainwhite-jekyll
-#theme: plainwhite
+remote_theme: hydecorp/hydejack@v9.1.6
+#theme: jekyll-theme-hydejack
 
-gems:
+plugins:
   - jekyll-mentions
+  - jekyll-include-cache
+  - jekyll-paginate
 
 defaults:
   -
@@ -22,18 +24,48 @@ defaults:
       type: "drafts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+    values:
+      accent_image:
+        background: url('/assets/images/hydejack-white.jpeg') center/cover
+        overlay: false
+      invert_sidebar: true
+      overlay: false
+      accent_color: '#ccc'
+      theme_color: '#ccc'
 
-plainwhite:
+author:
   name: Brenda
-  tagline:
-  date_format: "%Y-%m-%d %H:%M"
-  portfolio_image: "assets/images/starstar.jpeg"
-  dark_mode: true
-  search: true
-  social_links:
+  social:
     github: brendafei
-#  navigation:
-#    - title: Blogs
-#      url: "/index"
-#    - title: Hello1
-#      url: "/hello1"
+    email: brendafei16@163.com
+
+# Add links to the sidebar.
+menu:
+  - title:             Blog
+    url:               /
+
+# Pagination configuration (used by the `blog` layout)
+paginate:              10
+paginate_path:         /_posts/:num/
+
+kramdown:
+  math_engine:         katex
+  math_engine_opts:    {}
+  footnote_backlink:   '&#x21a9;&#xfe0e;'
+
+copyright:             © 2022. Brenda Fei. All rights reserved.
+
+
+# Hydejack Settings
+# ----------------------------------------------------------------------------------------
+# These settings are specific to Hydejack.
+
+hydejack:
+  # Disable the breadcrumbs above the title
+  no_breadcrumbs: true
+  # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
+  # Note that this setting has no effect when using the free version.
+  advertise: true

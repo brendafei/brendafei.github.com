@@ -10,3 +10,4 @@ gem 'jekyll-theme-hydejack', '~> 9.1', '>= 9.1.6'
 gem "github-pages"
 gem "jekyll-paginate"
 gem "kramdown-math-katex"
+gem 'jekyll-seo-tag'

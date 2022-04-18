@@ -288,6 +288,7 @@ DEPENDENCIES
   jekyll
   jekyll-include-cache
   jekyll-paginate
+  jekyll-seo-tag
   jekyll-theme-hydejack (~> 9.1, >= 9.1.6)
   kramdown-math-katex
   webrick (~> 1.7)

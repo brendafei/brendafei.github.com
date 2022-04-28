@@ -11,6 +11,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-last-modified-at
+  - jekyll-default-layout
 
 defaults:
   -
